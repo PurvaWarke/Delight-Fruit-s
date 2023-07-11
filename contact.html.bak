@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="CSS\main.css">
+ <link rel="stylesheet" href="CSS\menu.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<div class="menu">
+<ul>
+	<li style="float:left" ><a href=""><b>WELCOME...</b></a></li>
+    <li><a class="active" href="contact.html">CONTACT US</a></li>
+	<li><a href="Form.html" >ORDER FRUIT'S</a></li>
+    <li><a href="fruits.html">DELIGHT FRUIT'S</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="Main.html">HOME</a></li>
+<li><a href="Main.html">BACK</a></li>
+
+</ul></div></div><br>
+ <img src="C:\Users\Rani\Desktop\Delight Fruit's\img\mainpage.jpg" style="width:100%;">
+  <div class="centered"><h1><marquee width="100%" direction="left" height="100px">
+Delight Fruit's</marquee></h1></div>
+
+	<!-- contact-->
+<p> -: Connect With Delight's :-</p>
+<br>
+<table  align="center">
+<tr>
+</tr>
+<tr>
+<td><div>
+				<div class="contact3">Contact Info</div><br><br>
+				<div class="contact3-head"><b> <i class="fa fa-user"></i> Mr. Anant Patil (Bsc Agri)</b></div><br>
+			<div class="contact3-head"><b><i class="fa fa-map-marker"></i> Address</b></div>
+				<div class="contact3-part">   
+				Shop No 17, Hareshwar Nagar,<br> Near Peoples Bank, Ring Road,<br> Jalgaon, Maharashtra <br>425001 <br><br>
+					  </div>
+				<div class="contact3-head"><b><i class="fa fa-envelope"></i> Email</b></div>
+				<div class="contact3-part">  delight.fruits@gmail.com</div><br>
+				<div class="contact3-head"><b><i class="fa fa-phone"></i> Phone</b></div>
+				<div class="contact3-part">   +91 9075888375</div><br>
+				<div class="contact3-part"><b>www.delightfruits.com</b></div><br>
+				</div></td>
+<td>
+<div class="container2">
+	<form action="contactTQ.html" >
+	
+				<div class="contact3">Get In Touch</div>
+		<label for="fname"style="color:white"> Name</label><br>
+		<input type="text"  placeholder="Your First Name.." required>
+		<input type="text"  placeholder="Your Last Name.."required><br>
+		<label for="lname"style="color:white">Mobile Number</label><br>
+		<input type="text" id="lname" name="lastname" placeholder="Your Mobile Num.." required><br>
+		<label for="subject" style="color:white">Subject</label><br>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px" required></textarea><br>
+		<button type="submit">Submit</button>
+	</form>
+</div></td></tr>
+ </table>
+ <br>
+  <footer>
+		<div>
+			<p class="foot">copyrights: ©2022</p>
+			<p class="dev">Developed by : Delight Fruits</p>
+		</div>
+	</footer>
+  </body>
+  </html>
+  

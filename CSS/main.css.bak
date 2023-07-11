@@ -1,0 +1,314 @@
+body{
+	 margin: 0;
+	font-family:cursive;
+	}
+.image {width: 200%;}
+
+.overlay {
+		  position: absolute;
+		  bottom: 0;
+		  left: 0;
+		  right: 0;
+		  background-color:	black;
+		  overflow: hidden;
+		  width: 0;
+		  height: 100%;
+		  transition: .5s ease;
+		}
+
+
+.container:hover .overlay {
+			opacity:0.7;
+			width: 100%;
+		}
+
+.text {
+	  color: white;
+	  font-size: 20px;
+	  position: absolute;
+	  top:5%;
+	  left: 5%;}
+	  
+h7{
+	color:white;
+	font-family:'Brush Script MT', cursive;
+	font-size:100%;
+	text-shadow: 4px 4px 5px red;}
+	
+h8{
+	width: 100%;
+	color:white;}
+
+input[type=text], select, textarea {
+	  width: 100%;
+	  padding: 12px;
+	  border: 1px solid #ccc;
+	  border-radius: 4px;
+	  box-sizing: border-box;
+	  margin-top: 6px;
+	  margin-bottom: 16px;
+	  resize: vertical;}
+	  
+p12{
+	display:flex;
+    align-items: center;
+    justify-content: center;
+    height:90%;
+    width:100%;
+	margin:0;}
+		
+button{
+	font-family:'Brush Script MT', cursive;;
+	background-color:#45a049 ;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;}
+
+.container2 {
+	width:500px;
+	border-radius: 5px;
+	background-color:black;
+	padding: 20px 50px 20px 50px;}
+	
+p{
+	text-align: center;
+	color: white;
+	font-family:'Brush Script MT', cursive;;
+	background-color: green;
+	font-size:200%;
+	padding:0.5%;
+	margin:auto;
+}
+
+// fruit section
+
+p2{
+	color: black;
+	font-size: 15px;}
+
+.fruit_section .heading_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;}
+
+.fruit_section .heading_container hr {
+  width: 20%;
+  height: 1px;
+  border: none;
+  margin: 0;
+  margin-right: 10px;
+  background-color: #b7b7b7;
+}
+
+.fruit_section .heading_container h2 {
+  margin: 0;
+}
+
+.fruit_section .fruit_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.fruit_section .fruit_container .box {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 23.99%;
+          flex: 0 0 23.99%;
+  margin: 0.5%;
+  position: relative;
+  overflow: hidden;
+
+}
+
+.fruit_section img {
+  width: 100%;
+}
+
+.fruit_section .fruit_container .box .link_box {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: #252525;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+          flex-direction: column;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.fruit_section  h5 {
+  text-transform: uppercase;
+  color:yellow;
+ font-size: 18px;
+}
+
+.fruit_section a {
+  display: inline-block;
+  padding: 8px 25px;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 15px;
+}
+
+.fruit_section .fruit_container .box .link_box a:hover {
+  background-color: white;
+  color: red;
+}
+
+.fruit_section .fruit_container .box:hover .link_box {
+  top: 0;
+  opacity: 0.9;
+}
+
+
+.contact{
+    width:100%;
+    height:100%;
+}
+
+.contact-container{
+    max-width:1100px;
+    height:100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact-details{
+    width:50%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image:linear-gradient( #72e9f3 -20%, #404de6 120%);
+    font-family: 'Brush Script MT', cursive;
+    color:white;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.contact-details img{
+    width:200px;
+}
+h9 {
+		color: yellow;
+		font-family:Ink Free;
+		font-size:250%;
+		text-shadow: 4px 4px 5px red;
+	} 
+	
+	* {box-sizing: border-box}
+.mySlides1 {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1100px;
+  position: relative;
+  margin:auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color:black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: green;
+  color: white;
+}
+
+footer {
+  background: green;
+  height: 80px;
+  width: 100%;
+}
+p.foot{
+	align-items: center;
+	float:left;
+	color: white;
+  font: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-family:cursive;
+  font-size: 20px;
+  background: none;
+  text-align: left;
+}
+p.dev{
+	align-items: center;
+	float:right;
+	color: white;
+	font: 35px;
+	line-height: 80px;
+	padding: 0 100px;
+	font-size: 20px;
+	background: none;
+	text-align: right;
+}
+
+/*contact info*/
+table {
+  width: 150%;
+
+}
+
+th {
+  height: 70px;
+}
+
+.contact3{
+text-align: center;
+	font-family:cursive;
+	font-size:200%;
+	text-shadow: 4px 4px 5px yellow;
+	color: red;
+}
+.contact3-head{
+	text-align: center;
+	font-family:Times New Roman;
+	font-size:150%;
+	color: green;
+}
+.contact3-part{
+	text-align: center;
+	font-family:cursive;
+	font-size:100%;
+	color: black;
+}

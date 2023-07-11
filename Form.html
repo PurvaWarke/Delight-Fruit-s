@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form Page</title>
+    <link rel="stylesheet" href="CSS\form.css">
+	<link rel="stylesheet" href="CSS\menu.css">
+
+</head>
+<body>
+<div class="menu">
+<ul>
+	<li style="float:left" ><a href=""><b>WELCOME...</b></a></li>
+    <li><a class="active" href="contact.html">CONTACT US</a></li>
+	<li><a href="Form.html" >ORDER FRUIT'S</a></li>
+    <li><a href="fruits.html">DELIGHT FRUIT'S</a></li>
+    <li><a href="about.html">ABOUT</a></li>
+    <li><a href="Main.html">HOME</a></li>
+	<li><a href="fruits.html">BACK</a></li>
+</ul></div></div><br>
+<img src="img\mainpage.jpg" style="width:100%;">
+  <div class="centered"><h1>
+	<marquee width="150%" direction="left" height="100px">
+	Delight Fruit's</marquee>
+	</h1></div>
+
+<h2>Order Delight Fruits & Make it Juice...</h2>
+
+<div class="container">
+  <form   name="myForm" action="TQ.html" onsubmit="return validateForm()" method="post">
+    <label for="fname"><b>Name :</b></label></br>
+    <input type="text" name="fname"  placeholder="First Name"  required></br>
+    <input type="text"  placeholder="Last Name"  required></br>
+	<label for="mname"><b>Mobile No :</b></label></br>
+	<input type="text"  placeholder="Mobile No" required></br>
+	<label for="subject"><b>Address :</b></label></br>
+    <textarea type="text" placeholder="Address" required ></textarea></br>
+
+    <label for="country"><b>Order Fruits :</b></label></br>
+    <select id="country" name="country"  required>
+      <option></option>
+      <option>Dragon Fruit</option>
+      <option>Cherry</option>
+	  <option>Mango</option>
+      <option>Pomegranate</option>
+	  <option>Strawberry</option>
+      <option>Banana</option>
+	  <option>Orange</option>
+      <option>Kiwi</option>
+	  <option>Pineapple</option>
+      <option>Papaya</option>
+	  <option>Grapes</option>
+      <option>Apple</option>
+    </select></br>
+	<label for="weight"  ><b> Fruits Weight :</b></label></br>
+    <select required >
+	<option ></option>
+      <option >250 gm</option>
+      <option >500 gm</option>
+      <option>750 gm</option>
+	  <option>1 Kg</option>
+      <option>1.5 Kg</option>
+      <option>2 Kg</option>
+	  <option>2.25 Kg</option>
+	  <option>2.50 Kg</option>
+	  <option>2.75 Kg</option>
+      <option>3 Kg</option>
+      <option>3.25 Kg</option>
+	  <option>3.50 Kg</option>
+      <option>3.75 Kg</option>
+	  <option>4 Kg</option>
+      <option>5 Kg</option>
+      
+    </select></br>
+
+    <label for="subject"><b>Any Suggetions...</b></label></br>
+    <textarea id="subject" name="subject" placeholder="Write something.." ></textarea></br>
+	
+	<input type="reset" value="Reset" >
+	<input type="submit" value="Order">
+
+  </form>
+</div>
+
+
+
+</body>
+</html>
