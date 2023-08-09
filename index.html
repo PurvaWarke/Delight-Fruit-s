@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Main Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS\main.css">
+	<link rel="stylesheet" href="CSS\menu.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	
+</head>
+<body>
+<!--Name & Menu -->
+<div class="menu">
+		<ul>
+			<li style="float:left" ><a href=""><b>WELCOME...</b></a></li>
+			<li><a class="active" href="contact.html">CONTACT US</a></li>
+			<li><a href="Form.html" >ORDER FRUIT'S</a></li>
+			<li><a href="fruits.html">DELIGHT FRUIT'S</a></li>
+			<li><a href="about.html">ABOUT</a></li>
+			<li><a href="Main.html">HOME</a></li>
+		</ul>
+		</div></div><br><br><br>
+		
+<div class="slideshow-container" >
+<div class="mySlides fade" >
+  <img src="img\main.jpg" width="1100" height="530" >
+</div>
+
+<div class="mySlides fade">
+  <img src="img\main89.jpg" width="1100" height="530">
+</div>
+
+<div class="mySlides fade">
+  <img src="img\main99.jpg" width="1100" height="530">
+</div>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+	
+	<div class="centered"><h1><marquee width="150%" direction="left" height="100px"></div>
+Delight Fruit's</marquee></h1></div>
+<div class="d">Have Fruits Your Tummy Loves It !!</div>
+<br>
+	
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+<!-- About -->
+<p> -: Heyy, Here Is we :-</p><br><br>
+<div class="container">
+	 <div  class="contact" align="center">
+			<div class="contact-container">
+				<div class="contact-box"><img src="img\about.jpg" width="1345" height="600" ><br>
+				</div>	
+			</div>
+		</div>
+		<div  class="image">
+			<div class="overlay">
+			
+				<div class="text">
+					<h7><b style="font-size:35px ; Ink Free;">About Us ...</b><br><br>
+						 WELCOME to Delight Fruit's Shop...<br><br>
+							We are a local mobile e-commerce platform that is transforming 
+						the shopping experiance for people like you.We aim to become the
+						one-stop-shop for all your daily needs. Users can order through 
+						the app and get everything deliverd to their doorsteps quickly.<br><br>
+						"Delight Fruits" is the preferred destination for buying fresh fruits 
+						online in jalgaon,offering fresh and a best price and completely
+						good experiance with the option of paying through a cash on delivery.
+						It is an easy,relaxed and advanced way of shopping for'Fruits'
+						at your place.<br><br>
+						Delight Fruits is established with the'Aim'to supply fresh and quality
+						fruits at wholesale price with free home delivary.we aim towards making
+						hygenic food available to those who wish to keep their familt healthy.<br><br>
+						THANK YOU !!
+						<br><br>
+						FRUIT IN A DAY IS THE HEALTHY WAY !!
+					</h7>		
+				</div>	
+			</div>
+	  </div>
+  </div><br>
+  <br>
+  <footer>
+		<div>
+			<p class="foot">copyrights: ©2022</p>
+			<p class="dev">Developed by : Delight Fruits</p>
+		</div>
+	</footer>
+
+
+</body>
+</html> 
